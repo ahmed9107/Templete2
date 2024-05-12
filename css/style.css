@@ -51,3 +51,24 @@ ul{
     }
 }
 /* End Global rules */
+
+/* Start Header */
+header {
+    padding: 20px;
+}
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+header .container::after {
+    content: "";
+    position: absolute;
+    height: 5px;
+    bottom: 0;
+    left: 0;
+    background-color: black;
+    width: calc(100% - 30px);
+}
+/* End Header */
