@@ -22,6 +22,7 @@ html{
 }
 body{
     font-family: "Open Sans", sans-serif;
+    background-color: black;
 }
 ul{
     list-style: none;
@@ -65,10 +66,26 @@ header .container {
 header .container::after {
     content: "";
     position: absolute;
-    height: 5px;
+    height: 1px;
     bottom: 0;
-    left: 0;
-    background-color: black;
+    left: 15px;
+    background-color: #a2a2a2;
     width: calc(100% - 30px);
+}
+header .logo img {
+    height: 50px;
+}
+header nav {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+header nav li{
+    display: inline-block;
+}
+header nav .form{
+    padding: 10px;
+    margin-left: 30px;
 }
 /* End Header */
