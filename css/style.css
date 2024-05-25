@@ -52,6 +52,19 @@ ul{
 }
 /* End Global rules */
 
+/* Start Component */
+.main-heading {
+}
+.main-heading h2 {
+}
+.main-heading h2::before {
+    content:'';
+}
+.main-heading h2::after {
+    content:'';
+}
+/* End Component */
+
 /* Start Header */
 header {
     position: absolute;
