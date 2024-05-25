@@ -54,8 +54,14 @@ ul{
 
 /* Start Component */
 .main-heading {
+    text-align: center;
 }
 .main-heading h2 {
+    font-weight: normal;
+    font-size: 40px;
+    position: relative;
+    margin-bottom: 40px;
+    text-transform: uppercase;
 }
 .main-heading h2::before {
     content:'';
