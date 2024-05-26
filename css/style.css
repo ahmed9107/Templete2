@@ -65,6 +65,9 @@ ul{
 }
 .main-heading h2::before {
     content:'';
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
 }
 .main-heading h2::after {
     content:'';
