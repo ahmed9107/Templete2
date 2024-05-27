@@ -2,6 +2,7 @@
 :root{
     --main-color: #19c8fa;
     --transparent-color: rgb(15 116 143/60%);
+    --section-padding: 100px;
     /* --section-padding: 60px;
     --section-background: #f6f6f6;
     --text-color: #777;
@@ -68,9 +69,22 @@ ul{
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
+    height: 2px;
+    bottom: -20px;
+    background-color: #1f2021;
+    width: 140px;
 }
 .main-heading h2::after {
     content:'';
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 15px;
+    width: 15px;
+    bottom: -28px;
+    border-radius: 50%;
+    border: 2px solid #1f2021;
+    background-color: white;
 }
 /* End Component */
 
@@ -256,3 +270,10 @@ header nav .form i{
     border-color: var(--main-color);
 }
 /* End landing */
+
+/* Start Services */
+.services{
+    padding-top: var(--section-padding);
+    padding-bottom: var(--section-padding);
+}
+/* End Services */
