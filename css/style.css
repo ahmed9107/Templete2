@@ -579,3 +579,42 @@ header nav .form i{
     font-size: 14px;
 }
 /* End Stats section */
+
+/* Start Skills */
+.our-skills{
+    padding-top: var(--section-padding);
+    padding-bottom: var(--section-padding);
+}
+.our-skills .testimonials{
+    position: relative;
+    width: 50%;
+    text-align: center;
+}
+.our-skills .testimonials img{
+    border-radius: 50%;
+    width: 90px;
+    margin-left: 60px;
+}
+.testimonials .bullets {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 30px;
+    display: flex;
+}
+.testimonials .content{
+    display: flex;
+    position: relative;
+}
+.testimonials .bullets li {
+    width: 15px;
+    height: 15px;
+    border: 1px solid #ddd;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+.testimonials .bullets li.active {
+    background-color: var(--main-color);
+    border-color: var(--main-color);
+}
+/* End Skills */
